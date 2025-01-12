@@ -43,6 +43,7 @@ public class Vector3D {
             return new Vector3D(x/getMagnitude(), y/getMagnitude(), z/getMagnitude());
         }
     }
+    //Citation for IllegalStateException:https://stackoverflow.com/questions/12698275/whats-the-intended-use-of-illegalstateexception
 
     //Step 6
     public Vector3D add(Vector3D vector) {
